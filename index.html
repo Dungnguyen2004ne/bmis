@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tan Dung | Student Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fc;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 30px 60px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+      background-color: white;
+      flex-wrap: wrap;
+    }
+
+    .intro-text {
+      max-width: 50%;
+    }
+
+    .intro-text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .intro-text h1 span {
+      color: #e63946;
+    }
+
+    .intro-text p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    .hero img {
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+      margin-left: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .intro-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .hero img {
+        margin-left: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="interests.html" target="_blank">Interests</a>
+      <a href="goals.html" target="_blank">Goals</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="intro-text">
+      <h1>Hello, I'm <span>Tan Dung</span></h1>
+      <p>I’m a finance student at Gonzaga University. I’m passionate about investing, building a future in business, and being active in communities like the Vietnamese Student Association (VSA).</p>
+      <div class="contact-info">
+        <p><strong>Phone:</strong> 520-831-3348</p>
+        <p><strong>Email:</strong> tnguyen33@zagmail.gonzaga.edu</p>
+      </div>
+    </div>
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=9baa98fc44&attid=0.1&permmsgid=msg-f:1830046027329976886&th=1965a12a759e3a36&view=fimg&fur=ip&permmsgid=msg-f:1830046027329976886&sz=s0-l75-ft&attbid=ANGjdJ9u-y1sW9scfaQudFYxo5VuCRP-XOAr0YO5yk6nJn2NB6agmainnHT5ZFZm2qhnittxJGeSW5R7i08DkKFOSSwmsGZluYZnsparCLGs3rMdYLMHskY2p3Pw3-c&disp=emb&realattid=21EA1533-15F8-4B72-9C93-8EA189E6DCB1&zw" alt="Tan Dung personal photo" />
+  </section>
+
+  <footer>
+    &copy; 2025 Tan Dung | Student Website
+  </footer>
+
+</body>
+</html>
 
